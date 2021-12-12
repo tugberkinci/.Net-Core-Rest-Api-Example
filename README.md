@@ -6,7 +6,7 @@
 
 -That api searches images from given query parameter from unsplash.com.
 -Requires http body parameter;
--First one is "per_page", that is integer value requeres and fetching that number of images.
+-First one is "per_page", that is integer value required and fetching that number of latest images.
 -Second one is "query", that is what we want to search on unsplash.com.
 
 -Example query is like that ;
