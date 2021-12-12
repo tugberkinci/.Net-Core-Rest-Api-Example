@@ -11,12 +11,12 @@ We have two apis in this project;
 
 -Example query is like that ;
 -http://localhost:..../api_base/search
--{
--"per_page":4,
--"query":"flower"
--}
+{
+"per_page":4,
+"query":"flower"
+}
 
--and response of the this request in postman;
+-And response of the this request in postman;
 -{
  -   "Images": {
  -       "img1_URL": "https://images.unsplash.com/photo-1639323921219-23a3002dbf69?-----crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwxfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
@@ -34,7 +34,7 @@ We have two apis in this project;
 -Example api request is like that ;
 -http://localhost:..../api_base/random?limit=5
 
--and response of the this request in postman;
+-And response of the this request in postman;
 
 -{
 -  "Images": {
