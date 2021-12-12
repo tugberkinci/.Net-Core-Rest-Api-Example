@@ -1,8 +1,8 @@
 ## .Net-Core-Rest-Api-Example
-Rest api example that fetching images from Unsplash.com.
-We have two apis in this project;
+-Rest api example that fetching images from Unsplash.com.
+-We have two API in this project;
 
-## Search Api (.../api_base/search)
+## Search API (.../api_base/search)
 
 -That api searches images from given query parameter from unsplash.com.
 -Requires http body parameter;
@@ -26,7 +26,7 @@ We have two apis in this project;
 -    }
 -}
 
-## Random Api(.../api_base/random)
+## Random API(.../api_base/random)
 
 -That api fetching random images from unsplash.com.
 -Requires http query parameter for how many random images we requires.
