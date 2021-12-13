@@ -23,13 +23,16 @@ http://localhost:..../api_base/search
 
 - And response of the this request in postman;
 
--{"Images": {
--        "img1_URL": "https://images.unsplash.com/photo-1639323921219-23a3002dbf69?-----crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwxfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
--        "img2_URL": "https://images.unsplash.com/photo-1639333708533-532e2b6d17ff?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwyfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
--       "img3_URL": "https://images.unsplash.com/photo-1639333708537-34d912d5aed4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwzfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
--      "img4_URL": "https://images.unsplash.com/photo-1639333709251-136aa8361fc7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHw0fHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85"
--    }}
-
+```json
+{
+"Images": {
+        "img1_URL": "https://images.unsplash.com/photo-1639323921219-23a3002dbf69?-----crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwxfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
+        "img2_URL": "https://images.unsplash.com/photo-1639333708533-532e2b6d17ff?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwyfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
+       "img3_URL": "https://images.unsplash.com/photo-1639333708537-34d912d5aed4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHwzfHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85",
+      "img4_URL": "https://images.unsplash.com/photo-1639333709251-136aa8361fc7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHNlYXJjaHw0fHxmbG93ZXJ8ZW58MHx8Mnx8MTYzOTM0NzQ1NQ&ixlib=rb-1.2.1&q=85"
+   }
+}
+```
 ## Random API(.../api_base/random)
 
 - That api fetching random images from unsplash.com.
@@ -41,11 +44,14 @@ http://localhost:..../api_base/search
 
 - And response of the this request in postman;
 
-
-- {"Images": {
--        "img1_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
--        "img2_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
--        "img3_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
--        "img4_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
--        "img5_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85"
--    }}
+```json
+ {
+"Images": {
+        "img1_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
+        "img2_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
+        "img3_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
+        "img4_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85",
+        "img5_URL": "https://images.unsplash.com/photo-1637275731582-e3043d18a8cb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwyODIxMjd8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzkzNDc3NDM&ixlib=rb-1.2.1&q=85"
+    }
+}
+```
